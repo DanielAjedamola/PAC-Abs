@@ -10,9 +10,9 @@
 ##### 1b. Visit here: https://github.com/mkhaled87/scots-ready for the details on installation and usage of SCOTS, and ensure the vehicle example is working on your device.
 ##### 2. Ensure gurobi is installed on your device, and place the header files gurobi_c.h, gurobi_c++.h, and the license file gurobi.lic in the directory where the .ipynb files can access. 
 ##### 3. ensure that the directory in the make file (for the .cc files) are properly adjusted as applicable on your local device.
-##### 4. 
-
-##### 4. replace in the folder runningmax, the files runningmax.cc and Makefile with the one provided here, and proceed with the same instrcution to compile the files as it was done on the referenced repository in step 1a.
-##### 5. replace in the folder consensus, the files consensus.cc, visualize_consensus.py and Makefile with the one provided here, and proceed with the same instrcution to compile the files as it was done on the referenced repository in step 1.
-##### 6. a third example was added in folder 'tank', which is a network of fluid-tank system, and it works similarly as those above.
-
+### To construct the corresponding abstractions
+##### 4a. replace in the folder runningmax, the files runningmax.cc and Makefile with the one provided here in folder Nonlinear Interconnected dt-cs, and proceed with the same instrcution to compile the files as it was done on the referenced repository in step 1a.
+##### 4b. replace the files vehicle.cc, vehicle.m with the one provided here in folder vehicle_PAC_guaratee, and proceed with the same instrcution to compile the files as it was done on the referenced repository in step 1b.
+##### 4c. replace the files dcdc.cc, dcdc.m with the one provided here in folder DC-DC Boost Converter, and proceed with the same instrcution to compile the files as it was done on the referenced repository in step 1b.
+### To construct the corresponding ASFs
+##### 5. Run the corresponding .ipynb files in each folder for each example
