@@ -28,15 +28,7 @@ specification
    >> addpath(genpath('../../../mfiles'))
    >> dcdc
 
-4. if you want to compare with Pessoa 
-   https://sites.google.com/a/cyphylab.ee.ucla.edu/pessoa/
-   
-  a) in matlab 
-
-    >> add the path to pessoa 
-    >> dcdc_pessoa
-
-5. information on the example is found in
+4. information on the example is found in
 
 - A. Girard, G. Pola, and P. Tabuada. “Approximately bisimilar symbolic models
   for incrementally stable switched systems”. In: IEEE TAC 55.1 (2010), pp. 116–126.
